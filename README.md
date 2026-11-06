@@ -77,7 +77,7 @@ CI includes static analysis, tests, web build, an Android debug APK plus unsigne
 
 [Preview the icon, feature graphic and screenshots](store/PREVIEW.md). The repository includes eight Android and eight iPhone screenshots, platform launcher icons, English listing copy, privacy/terms/support pages and a [publishing checklist](docs/release/publishing-checklist.md). Settings includes offline legal/support documents.
 
-Public policy/support pages are prepared for GitHub Pages at `https://bilalyamin127.github.io/SubTrack/`. The temporary contact `support@subtrack.example` is explicitly non-operational and must be replaced with a monitored mailbox before store submission. Owner signing, store-console details and physical-device notification checks are still required; assets do not imply the app is already published.
+Public policy/support pages are prepared but hosting is not enabled: the integration received GitHub HTTP 403 for the Pages setting. Follow the [one-time owner setup](docs/release/github-pages-setup.md). Intended GitHub Pages base URL: `https://bilalyamin127.github.io/SubTrack/`. The temporary contact `support@subtrack.example` is explicitly non-operational and must be replaced with a monitored mailbox before store submission. Owner signing, store-console details and physical-device notification checks are still required; assets do not imply the app is already published.
 
 Regenerate/validate the launch pack:
 

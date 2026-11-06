@@ -1,5 +1,7 @@
 # Store-console field reference
 
+Public `github.io` URLs below are prepared, not yet live: GitHub denied integration access to enable Pages. Follow [owner Pages setup](../docs/release/github-pages-setup.md) and verify all URLs before using them in a submission.
+
 | Field | Prepared value |
 | --- | --- |
 | App name (both stores, 30 characters) | SubTrack Subscription Reminder |

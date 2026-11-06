@@ -14,5 +14,8 @@
   "contains_ads": false,
   "has_in_app_purchases": false,
   "requires_login": false,
-  "store_submission_completed": false
+  "store_submission_completed": false,
+  "public_pages_status": "prepared_not_enabled_owner_pages_setting_required",
+  "pages_enablement_result": "GitHub API 403: Resource not accessible by integration",
+  "pages_setup_document": "docs/release/github-pages-setup.md"
 }

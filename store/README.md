@@ -21,4 +21,6 @@ The app's launcher icons are installed under `android/app/src/main/res/` and `io
 
 Brand colors: purple `#7755DC`, teal `#16A898`, white `#FFFFFF`. No subscription-provider logos are used. Brand artwork was AI-generated for this project; review identity/trademark availability before adopting the brand commercially. Screenshot font is Roboto under its included OFL license (`tools/fonts/OFL.txt`).
 
+**Public hosting:** HTML pages are ready, but GitHub returned HTTP 403 when the integration tried to enable Pages. Follow [owner setup](../docs/release/github-pages-setup.md); do not use unverified `github.io` URLs in a submission.
+
 **Submission blocker:** `support@subtrack.example` is reserved and does not receive email. Replace it with your working mailbox, confirm the legal developer identity, sign the release builds and complete the store questionnaires/device checks before launch. Publishing documents in GitHub does not publish the mobile app.
