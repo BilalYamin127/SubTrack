@@ -34,10 +34,13 @@ jobs:
           cache: true
       - run: flutter pub get
       - run: flutter build apk --debug
+      - run: flutter build appbundle --release
       - uses: actions/upload-artifact@v4
         with:
-          name: subtrack-debug-apk
-          path: build/app/outputs/flutter-apk/app-debug.apk
+          name: subtrack-android-builds
+          path: |
+            build/app/outputs/flutter-apk/app-debug.apk
+            build/app/outputs/bundle/release/app-release.aab
   ios:
     runs-on: macos-latest
     steps:
@@ -49,3 +52,8 @@ jobs:
           cache: true
       - run: flutter pub get
       - run: flutter build ios --release --no-codesign
+      - run: ditto -c -k --sequesterRsrc --keepParent build/ios/iphoneos/Runner.app build/ios/subtrack-ios-unsigned.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: subtrack-ios-unsigned
+          path: build/ios/subtrack-ios-unsigned.zip

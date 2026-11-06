@@ -71,4 +71,4 @@ open ios/Runner.xcworkspace
 flutter build ipa --release
 ```
 
-CI includes static analysis, tests, web build, Android debug APK and an unsigned iOS compilation job. Store upload/signing is deliberately separate. This repository does not contain signing secrets or claim store approval.
+CI includes static analysis, tests, web build, an Android debug APK plus unsigned release AAB, and an unsigned iOS app bundle. Download these from the workflow run’s Artifacts section. Unsigned builds require your signing credentials before distribution. Store upload/signing is deliberately separate. This repository does not contain signing secrets or claim store approval.
