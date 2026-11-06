@@ -1,0 +1,1 @@
+subscription,bill,reminder,renewal,expense,tracker,recurring,budget,offline,cost,calendar

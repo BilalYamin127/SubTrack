@@ -1,0 +1,18 @@
+{
+  "support_email": "support@subtrack.example",
+  "support_email_status": "temporary_reserved_placeholder_not_monitored",
+  "requires_working_email_before_submission": true,
+  "developer_display_name_proposed": "SubTrack developer",
+  "developer_legal_identity_status": "owner_must_confirm_in_store_console",
+  "privacy_url": "https://bilalyamin127.github.io/SubTrack/privacy.html",
+  "support_url": "https://bilalyamin127.github.io/SubTrack/support.html",
+  "terms_url": "https://bilalyamin127.github.io/SubTrack/terms.html",
+  "data_control_url": "https://bilalyamin127.github.io/SubTrack/data-control.html",
+  "marketing_url": "https://bilalyamin127.github.io/SubTrack/",
+  "proposed_primary_category": "Finance",
+  "pricing_proposed": "Free",
+  "contains_ads": false,
+  "has_in_app_purchases": false,
+  "requires_login": false,
+  "store_submission_completed": false
+}

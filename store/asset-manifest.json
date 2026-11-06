@@ -1,0 +1,289 @@
+{
+  "app": "SubTrack",
+  "locale": "en-US",
+  "prepared_date": "2026-11-06",
+  "screenshot_provenance": "Actual Flutter widget renders with fictional sample records; not physical-device captures. Compare against final signed builds.",
+  "temporary_contact": "support@subtrack.example",
+  "submission_ready": false,
+  "submission_blockers": [
+    "Replace temporary email with monitored support mailbox",
+    "Confirm legal developer identity and store account details",
+    "Sign final builds and perform physical-device notification QA",
+    "Complete console-specific questionnaires and device-size requirements"
+  ],
+  "assets": [
+    {
+      "path": "store/android/app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 183557,
+      "sha256": "f79839ba9698a0cc3617fe4802606b63ae1fe4c37eb273fa970d46570f8665f9"
+    },
+    {
+      "path": "store/ios/app-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 760477,
+      "sha256": "79c8bfcff2e9a8c8cc96119aca777a2031792dff203734f082e5c0c77666d7e0"
+    },
+    {
+      "path": "store/android/feature-graphic-1024x500.png",
+      "width": 1024,
+      "height": 500,
+      "bytes": 462749,
+      "sha256": "2ed15450ea82fd03b122aff60a58e5c551c72090f6c31f68ccba0026da3e6cac"
+    },
+    {
+      "path": "store/android/en-US/screenshots/01-dashboard.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 358351,
+      "sha256": "adeca4f976b3549da4ac7ae5b17bf00528dd85efaebcf11c58dad484944a2ac6"
+    },
+    {
+      "path": "store/android/en-US/screenshots/02-subscriptions.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 178348,
+      "sha256": "cf7c0ca8ea81ba026189c1a039c72be2c68c5e91f90c8576c6b9d51d769bdd93"
+    },
+    {
+      "path": "store/android/en-US/screenshots/03-add-subscription.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 172593,
+      "sha256": "622dcd1095267bd3a2fbfba8f5fcf1d4216bccdf9668af37a27765b13a0333e5"
+    },
+    {
+      "path": "store/android/en-US/screenshots/04-subscription-details.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 160594,
+      "sha256": "967feaf43197ef06e80e3f2ed186ea3ad445ef90ec067fc95df616c90627abb5"
+    },
+    {
+      "path": "store/android/en-US/screenshots/05-upcoming-renewals.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 165574,
+      "sha256": "a495a4e662680df6036e534fcb4b1b292e4fc2c6d7889faf295563a90e4fef2a"
+    },
+    {
+      "path": "store/android/en-US/screenshots/06-expense-analytics.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 128883,
+      "sha256": "4ef0e631463f0943874b563c150e3d4d2050605da5b986b83069942f98896b88"
+    },
+    {
+      "path": "store/android/en-US/screenshots/07-categories.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 151812,
+      "sha256": "8ba75022965deb90fbfd044247681dd17e2c71ef03f01b4028fbad836575de30"
+    },
+    {
+      "path": "store/android/en-US/screenshots/08-settings.png",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 206446,
+      "sha256": "a5548ef44aaaeff4bd9a8238f37cd8069e679a37453f79b05521da72d7e4af30"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/01-dashboard.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 527046,
+      "sha256": "9df715cbad8ed7fe62d87f7a8435400e3da9763463f0aa8fd10bc041e0ef0a5c"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/02-subscriptions.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 276969,
+      "sha256": "39d29c73a486b6f7c1086debac122e34e83f18ba430fe365ec0aec196305a61d"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/03-add-subscription.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 264592,
+      "sha256": "b098f85bef2257f117fd0abaf59f9890313d5fc09c6d63c75f98b2fec0f9ca39"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/04-subscription-details.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 205382,
+      "sha256": "902e6f1bba7d6c4c29620b6c53d9d9b1a115fcbc6c8982701a573c67d4cabb83"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/05-upcoming-renewals.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 264663,
+      "sha256": "4a05bc90382a74616d9fa24a7aa6538471357c26ebb8e0fe7af68dc009985c5c"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/06-expense-analytics.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 196900,
+      "sha256": "90a092176f68ed3c1ab5fd9a9067dc1e1b1cb992acdf359b6fd5cebb1d95e024"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/07-categories.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 191499,
+      "sha256": "f795878d8e000e874cfcbfe3740c102d5f215611f6424aa3e37a553d848763cb"
+    },
+    {
+      "path": "store/ios/en-US/screenshots/08-settings.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 279367,
+      "sha256": "9f9e153241e47d71117a44c43ec4c2fcc73fd7019660e84b263029fdf3e2da26"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "width": 48,
+      "height": 48,
+      "bytes": 3054,
+      "sha256": "395f5594d8329a9f307dddaa7889d6bae96f351da01ae59dddafbacb9717d107"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "width": 72,
+      "height": 72,
+      "bytes": 5430,
+      "sha256": "b55c6dd54b53e46a9b0cfdc05099bad850e4efa3ccc6b87b8aec79a00b2b3a85"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "width": 96,
+      "height": 96,
+      "bytes": 8292,
+      "sha256": "9230895d39c992b9f471087c7bd61614959123fb8942e5a6d680299b4715c69b"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "width": 144,
+      "height": 144,
+      "bytes": 15634,
+      "sha256": "4fa5b2d4bca132f45b7722af35d35c972216a42f017feb767a51d4e7803e5e75"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "width": 192,
+      "height": 192,
+      "bytes": 26170,
+      "sha256": "8c7d8b65a91ce4dd8fc4cb1e106fe20eb0c5c19854390c3173a4eaff8e43974c"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 2464,
+      "sha256": "fb03462a2a7d6917347fffa8a7bc15079117b328b776d5b5dd74e79945a6bfe2"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "width": 60,
+      "height": 60,
+      "bytes": 4206,
+      "sha256": "3fc9abf94adcba26208b4d160b49a3527637fab1b81e64b19def304c37332e1e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "width": 29,
+      "height": 29,
+      "bytes": 1672,
+      "sha256": "29bba38b1656f2ff73c3318fc5902f3eff57aabe369e92afb8c2d2c0da9870f7"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "width": 58,
+      "height": 58,
+      "bytes": 3967,
+      "sha256": "4cf13b2ae457c049575cd4fafad44bcbee1e31ddb6cdbcf79d1dda10d63ba350"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "width": 87,
+      "height": 87,
+      "bytes": 7146,
+      "sha256": "3f22ce3ff3efb6c64e387fe0db2333a28be4897bb6073f2ea50d664e7dbe33b6"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "width": 80,
+      "height": 80,
+      "bytes": 6277,
+      "sha256": "71658a0c1d8a35e62f183b13320c6aee21b56a75f8d5a9db994d13309c9417e1"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "width": 120,
+      "height": 120,
+      "bytes": 11647,
+      "sha256": "2b0a499bdf7b10a226a28fa93df245200924d3fb467b6dce9943e9b1af6069dd"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "width": 120,
+      "height": 120,
+      "bytes": 11647,
+      "sha256": "2b0a499bdf7b10a226a28fa93df245200924d3fb467b6dce9943e9b1af6069dd"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "width": 180,
+      "height": 180,
+      "bytes": 23125,
+      "sha256": "85241483e73458d8c0833ab99ef6f8e7ff0bfea52c1a39c695ba78b31e1e0a09"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "width": 20,
+      "height": 20,
+      "bytes": 1117,
+      "sha256": "7611fe42636406db333127ded36407b0f0faa8a7f91cc997d753f0f5ca9c267d"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 2464,
+      "sha256": "817a4ff9cc7d94d767dcb78adfe81186cf38b46912e963366bc37502e1fda4bf"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "width": 76,
+      "height": 76,
+      "bytes": 5820,
+      "sha256": "a178d49146af63f97c8038b644783d11123d4116ccd9bb730df204b0b2720c24"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "width": 152,
+      "height": 152,
+      "bytes": 17080,
+      "sha256": "02099d6807b0cf68ffb6455b7cfe38c19782f6f56e358e01d7533db7626516d5"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "width": 167,
+      "height": 167,
+      "bytes": 20239,
+      "sha256": "3d4c72b31eb3edde0dc603019f67342bca233e109cd578a2275b3b9c9ae05bdc"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 760477,
+      "sha256": "f32b4f52cc18ccc67a5274b6ac33c21342c5c80bc20a14dd2fa4682adddcef16"
+    }
+  ]
+}

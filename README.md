@@ -72,3 +72,20 @@ flutter build ipa --release
 ```
 
 CI includes static analysis, tests, web build, an Android debug APK plus unsigned release AAB, and an unsigned iOS app bundle. Download these from the workflow run’s Artifacts section. Unsigned builds require your signing credentials before distribution. Store upload/signing is deliberately separate. This repository does not contain signing secrets or claim store approval.
+
+## Store launch pack
+
+[Preview the icon, feature graphic and screenshots](store/PREVIEW.md). The repository includes eight Android and eight iPhone screenshots, platform launcher icons, English listing copy, privacy/terms/support pages and a [publishing checklist](docs/release/publishing-checklist.md). Settings includes offline legal/support documents.
+
+Public policy/support pages are prepared for GitHub Pages at `https://bilalyamin127.github.io/SubTrack/`. The temporary contact `support@subtrack.example` is explicitly non-operational and must be replaced with a monitored mailbox before store submission. Owner signing, store-console details and physical-device notification checks are still required; assets do not imply the app is already published.
+
+Regenerate/validate the launch pack:
+
+```sh
+python3 tools/export_icons.py
+python3 tools/build_launch_pages.py
+flutter test tools/screenshots_test.dart --no-pub
+python3 tools/validate_launch_pack.py
+```
+
+Image exports require ImageMagick. Roboto is bundled under its [OFL license](assets/fonts/OFL.txt). Capture tooling uses in-memory sample records and does not open the user's database or remove files.

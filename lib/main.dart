@@ -8,6 +8,7 @@ import 'services/notification_service.dart';
 import 'view_models/app_view_model.dart';
 import 'views/screens.dart';
 import 'views/subscription_editor.dart';
+import 'views/legal_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -45,6 +46,32 @@ Future<void> main() async {
 
 final router = GoRouter(
   routes: [
+    GoRoute(
+      path: '/privacy',
+      builder: (_, _) => const LegalScreen(
+        title: 'Privacy policy',
+        asset: 'docs/legal/privacy-policy.md',
+      ),
+    ),
+    GoRoute(
+      path: '/terms',
+      builder: (_, _) => const LegalScreen(
+        title: 'Terms of use',
+        asset: 'docs/legal/terms-of-use.md',
+      ),
+    ),
+    GoRoute(
+      path: '/support',
+      builder: (_, _) =>
+          const LegalScreen(title: 'Support', asset: 'docs/legal/support.md'),
+    ),
+    GoRoute(
+      path: '/data-control',
+      builder: (_, _) => const LegalScreen(
+        title: 'Your local data',
+        asset: 'docs/legal/local-data-control.md',
+      ),
+    ),
     ShellRoute(
       builder: (context, state, child) =>
           AppShell(location: state.uri.path, child: child),
@@ -132,6 +159,7 @@ class _SubTrackAppState extends ConsumerState<SubTrackApp>
       );
       return ThemeData(
         useMaterial3: true,
+        fontFamily: 'Roboto',
         colorScheme: scheme,
         scaffoldBackgroundColor: brightness == Brightness.light
             ? const Color(0xfff7f7fc)

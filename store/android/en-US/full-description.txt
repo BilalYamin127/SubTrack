@@ -1,0 +1,28 @@
+Know what renews next. See what your subscriptions cost.
+
+SubTrack brings recurring subscriptions and bills into one clear, private workspace. Add the services you use, plan for upcoming renewals, and understand your monthly and yearly commitments—without creating an account or connecting your bank.
+
+YOUR RECURRING EXPENSES, AT A GLANCE
+See monthly-equivalent costs, yearly-equivalent costs, active subscription counts and your next projected renewal. Totals stay separate for each currency, so different currencies are never misleadingly added together.
+
+REMINDERS THAT FIT YOUR ROUTINE
+Choose local reminders 7 days, 3 days or 1 day before renewal, or on the renewal date. Alerts are scheduled on your device at 9 AM local time when notification permission is enabled. Open SubTrack regularly to refresh its rolling reminder schedule. Device permissions and power settings can affect delivery.
+
+FLEXIBLE BILLING SCHEDULES
+Track weekly, monthly, quarterly, half-yearly, yearly or custom day intervals. Calendar-aware calculations handle short months and leap years while preserving the intended renewal day.
+
+ORGANIZE YOUR WAY
+Add, edit, search and filter subscriptions. Pause, resume or mark records cancelled. Use built-in categories or create your own. Keep prices, currencies, payment dates, reminder preferences and notes together.
+
+CLEAR EXPENSE INSIGHTS
+Explore category charts, monthly and yearly equivalents, and your most expensive subscriptions. Paused and cancelled records are excluded from active expense totals.
+
+PRIVATE BY DESIGN
+No login, bank connection, advertising SDK or analytics SDK. Your subscription records and preferences are stored locally. Core tracking works offline. Choose light, dark or system appearance.
+
+IMPORTANT TO KNOW
+SubTrack is a manual tracking and planning tool. Renewal dates and costs are projections, not confirmed payments. SubTrack does not process payments or cancel subscriptions with external providers. Manage actual payments and cancellations directly with the provider.
+
+Reminders use the earliest 60 future alerts within a rolling one-year horizon. Open the app regularly to replenish them. Clearing app data or uninstalling removes local records; there is no developer-hosted backup or account recovery.
+
+Start with one subscription. Build a clearer picture of everything recurring.

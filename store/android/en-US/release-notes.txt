@@ -1,0 +1,6 @@
+Welcome to SubTrack!
+• Track subscriptions and recurring bills offline.
+• Plan renewals with flexible billing cycles and local reminders.
+• Understand costs with currency-separated summaries and category charts.
+• Organize records with categories, search, filters and status controls.
+• Choose light, dark or system appearance. No account required.

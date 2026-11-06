@@ -201,7 +201,12 @@ class Brand extends StatelessWidget {
           color: Theme.of(context).colorScheme.primary,
           borderRadius: BorderRadius.circular(12),
         ),
-        child: const Icon(Icons.auto_awesome_motion, color: Colors.white),
+        child: Image.asset(
+          'assets/branding/app-icon-256.png',
+          width: 24,
+          height: 24,
+          semanticLabel: 'SubTrack',
+        ),
       ),
       const SizedBox(width: 10),
       const Flexible(
@@ -1048,6 +1053,37 @@ class SettingsScreen extends ConsumerWidget {
                 if (context.mounted) await guarded(context, vm.clear);
               }
             },
+          ),
+        ),
+        const SizedBox(height: 20),
+        Card(
+          child: Column(
+            children: [
+              ListTile(
+                leading: const Icon(Icons.privacy_tip_outlined),
+                title: const Text('Privacy policy'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/privacy'),
+              ),
+              ListTile(
+                leading: const Icon(Icons.description_outlined),
+                title: const Text('Terms of use'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/terms'),
+              ),
+              ListTile(
+                leading: const Icon(Icons.folder_outlined),
+                title: const Text('Your local data'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/data-control'),
+              ),
+              ListTile(
+                leading: const Icon(Icons.help_outline),
+                title: const Text('Support'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/support'),
+              ),
+            ],
           ),
         ),
         const SizedBox(height: 24),
